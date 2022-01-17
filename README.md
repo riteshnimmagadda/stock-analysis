@@ -1,5 +1,6 @@
 # stock-analysis
 ##Overview of the Project
+
 This project amis to analyze different stocks for the years 2017 and 2018 with the help of VBA by using loops, conditionals, formatting, and arrays. There is an illustration of runtimes when only a subset of stocks were analyzed versus the full set.
 
 #Results
