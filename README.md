@@ -6,6 +6,16 @@ This project amis to analyze different stocks for the years 2017 and 2018 with t
 ## Results
 The initial subset of data analyzed was in the green_stocks excel that has the macro AllStockAnalysis. Considering 2017, there was a tremendos improvements in the runtimes from 0.5009 seconds to 0.10400 seconds in the refactored code. Similarly for 2018, green stock analysis returned 0.49694 seconds whereas the run time for the refactored code on the whole data set was 0.10900 seconds.
 
+![alt text](https://github.com/riteshnimmagadda/stock-analysis/blob/main/green_stocks_2017.png "Green Stocks 2017 data set run time")
+
+![alt text](https://github.com/riteshnimmagadda/stock-analysis/blob/main/green_stocks_2018.png "Green Stocks 2018 data set run time")
+
+![alt text](https://github.com/riteshnimmagadda/stock-analysis/blob/main/VBA_Challenge_2017.png "Full Dataset analysis run time for 2017")
+
+![alt text](https://github.com/riteshnimmagadda/stock-analysis/blob/main/VBA_Challenge_2018.png "Full Dataset analysis run time for 2017")
+
+
+
 ### Refactoring the code:
 There are couple of things that helped in looping through the stock set. one such thing is the use of tickerindex, which helped in improved run times when searching for the tickers. tickerstartingprices and tickerendingprices have helped to eliminate the nessecity of using the nested loops, thus by saving the amount of time this takes to run.
 
